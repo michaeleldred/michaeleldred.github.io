@@ -4,7 +4,8 @@ title: Infinibreak
 permalink: /infinibreak/privacy/
 ---
 
-<strong>Privacy Policy</strong> <p>
+<strong>Privacy Policy</strong>
+<p>
   Michael Eldred built the Infinibreak app as
   an Ad Supported app. This SERVICE is provided by
   Michael Eldred at no cost and is intended for use as

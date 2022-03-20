@@ -1,14 +1,14 @@
 ---
 layout: post
 title:  "Mobile Continuous Integration Using Godot and Azure Devops, Part 1: Testing and Pipelines"
-blurb: ""
+blurb: "First steps to creating a CI/CD pipeline using Godot and Azure Devops"
 og_image: /assets/header1.jpg
 date:   2022-03-14 19:34:57 -0600
 categories: ci cd azure devops godot gamedev
 ---
 <img src="{{ "/assets/header1.jpg" | absolute_url }}" alt="bay" class="post-pic"/>
 # Why
-I started this task mostly out of my own curiosity, to see how hard it would be to develop a CI/CD for my Godot Project, after encountering the pain of having to do releases for my previous mobile project [Shameless Plug!](). I also wanted to introduce Test Driven Development (TDD) to the project, partly to improve reliability and confidence in the project's stability. The main reason, however, was an opportunity to practice writing tests that was not provided in my day job.
+I started this task mostly out of my own curiosity, to see how hard it would be to develop a CI/CD for my Godot Project, after encountering the pain of having to do releases for my previous mobile project <a href="/infinibreak/">Shameless Plug!</a>. I also wanted to introduce Test Driven Development (TDD) to the project, partly to improve reliability and confidence in the project's stability. The main reason, however, was an opportunity to practice writing tests that was not provided in my day job.
 
 This is my first technical blog related to Godot and CI, so I am welcome to changes and improvements that can be made to it. I am documenting it first for myself so when I start a new project all of the steps are here and I can refer to my own documentation
 
@@ -19,7 +19,7 @@ Goals:
 
 I assume some level of familiarity with Godot and gdscript in the project, as well as git.
 
-The finished step can be found on GitHub here: TODO
+The finished project can be found <a href="/assets/CDTestProject-1.zip">here</a>
 
 # Tools
 - [WAT](https://github.com/AlexDarigan/WAT). Unit testing framework for Godot. There are other ones out there but this one seemed the simplest and had built-in support for JUnit test results files to be consumed by Azure Devops.
@@ -195,4 +195,6 @@ Click Run in the top right and then the pipeline will start execution. After wai
 
 Once finished, you have a basic project that automatically runs tests on every push to Azure Devops.
 
-In part 2, [Build iOS and deploy to App Store]()
+The finished project can be found <a href="/assets/CDTestProject-1.zip">here</a>
+
+In part 2, we will Build an iOS app and deploy to App Store
