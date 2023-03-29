@@ -1,7 +1,7 @@
 ---
 layout: home
-title: Infinibreak
-permalink: /infinibreak/privacy/
+title: Pirate Party
+permalink: /pirateparty/privacy/
 ---
 
 <strong>Privacy Policy</strong> <p>
