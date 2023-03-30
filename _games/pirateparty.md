@@ -3,6 +3,7 @@ layout: home
 title: Pirate Party
 permalink: /pirateparty/
 short_desc: Keep the ship together as forces try to pull it apart
+order_num: 2
 carousels:
 - images:
     - image: /assets/pirateparty/screenshot1.png

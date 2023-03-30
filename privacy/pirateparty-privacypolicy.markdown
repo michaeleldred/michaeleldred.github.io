@@ -4,7 +4,8 @@ title: Pirate Party
 permalink: /pirateparty/privacy/
 ---
 
-<strong>Privacy Policy</strong> <p>
+<strong>Privacy Policy</strong>
+<p>
 Michael Eldred built the Pirate Party app as
 an Ad Supported app. This SERVICE is provided by
 Michael Eldred at no cost and is intended for use as
@@ -92,7 +93,9 @@ delete this from our servers. If you are a parent or guardian
 and you are aware that your child has provided us with
 personal information, please contact me so that
 I will be able to do the necessary actions.
-</p></div> <!----> <p><strong>Changes to This Privacy Policy</strong></p> <p>
+</p></div> <!---->
+
+<p><strong>Changes to This Privacy Policy</strong></p> <p>
 I may update our Privacy Policy from
 time to time. Thus, you are advised to review this page
 periodically for any changes. I will

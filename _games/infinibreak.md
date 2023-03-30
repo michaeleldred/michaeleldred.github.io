@@ -3,6 +3,7 @@ layout: home
 title: Infinibreak
 permalink: /infinibreak/
 short_desc: An action-packed infinite brick-breaking game
+order_num: 1
 carousels:
 - images:
     - image: /assets/infinibreak/screenshot1.png

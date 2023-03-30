@@ -32,10 +32,11 @@ permalink: /games/
 
 <h1>Games</h1>
 <ul class="game-list">
-{% for game in site.games limit:3 %}
+{% assign games = site.games | sort: "order_num" | reverse %}
+{% for game in games %}
     <li class="game">
         <a href="{{ game.url }}">
-            <img src="/assets/infinibreak/cover_image.png" alt="{{ game.title }}"/>
+            <img src="/assets/{{game.url}}/cover_image.png" alt="{{ game.title }}"/>
         </a>
         
     </li>
